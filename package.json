@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "fetch-wrapper": "^1.0.2",
+    "moment": "^2.27.0",
+    "moment-timezone": "^0.5.31",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.6",
+    "promise-reflect": "^1.1.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "name": "exportconversations",
+  "version": "1.0.0",
+  "main": "src/conversations/handler.js",
+  "devDependencies": {
+    "serverless-hooks-plugin": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy:prepare": "sh deployment/prepare.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yard1983/exportConversations.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yard1983/exportConversations/issues"
+  },
+  "homepage": "https://github.com/yard1983/exportConversations#readme",
+  "description": ""
+}
